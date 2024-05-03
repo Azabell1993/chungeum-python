@@ -24,8 +24,11 @@ async def chungeum(request: Request):
 
 #####################################################################
 #실행하는 방법
-# python3 -m venv venv
 
+# 가상 환경 새로 생성
+#python -m venv E:\study\0504\web\venv
+
+# 가상 환경 활성화
 ### window
 # .\venv\Scripts\Activate
 ### mac
@@ -34,6 +37,6 @@ async def chungeum(request: Request):
 # 아래를 한 줄식 차레대로 설치
 # pip install fastapi==0.74.1
 # pip install "uvicorn[standard]"
-# pip install fastapi jinja2 uvicorn
+# pip install jinja2
 
 # uvicorn backend.main:app --reload
